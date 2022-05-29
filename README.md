@@ -54,3 +54,8 @@ Fromwhatsappnumber and towhatsappnumber.
 To start the server application,
 Python server.py
 
+NOTE:
+Voice commands for controlling the switch on the Home page:
+       1. Alex i am home : to let the appliacation know that you're home
+       2. Alex i am going out : to let the appliacation know that you're going out
+
