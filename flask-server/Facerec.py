@@ -71,10 +71,13 @@ def facerec(home):
 
         for x in myresult:
             fid = x[0]
-            matched_face = face_client.face.find_similar(
-                face_id=fid,
-                face_ids=face_ids
-            )
+            try:
+                matched_face = face_client.face.find_similar(
+                    face_id=fid,
+                    face_ids=face_ids
+                )
+            except:
+                pass
             if matched_face:
                 flag = 1
                 for matched in matched_face:

@@ -15,7 +15,7 @@ export default function Home() {
             Message = "Have a safe trip"
             window.speechSynthesis.speak(new SpeechSynthesisUtterance(Message))
         }
-        if (command.search('back') !== -1 || command.search('going out') !== -1) {
+        if (command.search('back') !== -1 || command.search('home') !== -1) {
             setValue(true);
             window.homevalue = true
             Message = "Welcome Back"
@@ -26,7 +26,7 @@ export default function Home() {
 
     const commands = [
         {
-            command: 'Sara *',
+            command: 'Alex *',
             callback: (command) => processCommand(command)
 
         },
