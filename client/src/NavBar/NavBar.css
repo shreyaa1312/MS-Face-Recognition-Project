@@ -1,0 +1,26 @@
+.mid {
+    background-color: #215a88;
+    height: 48px;
+    width: 110%;
+    margin: 9em 0px 0px 0px;
+}
+
+.navbar {
+
+    width: 100%;
+    display: inline-block;
+}
+
+.navbar li {
+
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 18px;
+    padding: 8px 210px;
+}
