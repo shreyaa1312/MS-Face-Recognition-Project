@@ -47,7 +47,7 @@ Within the flask-server directory inside the project, open authentication.json.
 There are 2 json values. 
 Fromwhatsappnumber and towhatsappnumber.
 
-1. Change towhatsappnumber to the desired mobile number to which WhatsApp messages are to be sent.
+1. Change towhatsappnumber to the desired mobile number to which WhatsApp messages are to be sent. (marked as XXXXXXXXXX)
 
 2. From this number ( new number added in the towhatsappnumber )send this message to the Fromwhatsappnumber - join dust-slabs
 
