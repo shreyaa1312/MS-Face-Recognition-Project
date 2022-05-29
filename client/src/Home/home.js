@@ -9,13 +9,13 @@ export default function Home() {
     let Message = ''
 
     const processCommand = (command) => {
-        if (command === 'I am going out') {
+        if (command.search('going out') !== -1) {
             setValue(false);
             window.homevalue = false
             Message = "Have a safe trip"
             window.speechSynthesis.speak(new SpeechSynthesisUtterance(Message))
         }
-        if (command === 'I am home') {
+        if (command.search('back') !== -1 || command.search('going out') !== -1) {
             setValue(true);
             window.homevalue = true
             Message = "Welcome Back"
@@ -26,7 +26,7 @@ export default function Home() {
 
     const commands = [
         {
-            command: 'Lulu *',
+            command: 'Sara *',
             callback: (command) => processCommand(command)
 
         },
