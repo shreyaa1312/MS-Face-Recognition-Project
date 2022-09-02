@@ -1,6 +1,5 @@
 # MS-Face-Recognition-Project
- A security system for the visually challenged people using Microsoft Azure FaceAPI
-Pre-requisite for Client
+ A security system for the visually challenged people using Microsoft Azure FaceAPI for Client
 
 Node.js version :v16.14.2 to be installed
 Npm Version : 8.5.0
